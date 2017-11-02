@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F8E498491CE3F48A00316A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E498481CE3F48A00316A4A /* AppDelegate.swift */; };
-		F8E4984B1CE3F48A00316A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4984A1CE3F48A00316A4A /* ViewController.swift */; };
-		F8E4984E1CE3F48A00316A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E4984C1CE3F48A00316A4A /* Main.storyboard */; };
-		F8E498501CE3F48A00316A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E4984F1CE3F48A00316A4A /* Assets.xcassets */; };
 		F8E498531CE3F48A00316A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E498511CE3F48A00316A4A /* LaunchScreen.storyboard */; };
+		F8E4985C1CE3F4D900316A4A /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4985B1CE3F4D900316A4A /* PaddingLabel.swift */; };
+		F8E498601CE3F4FB00316A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4985D1CE3F4FB00316A4A /* ViewController.swift */; };
+		F8E498611CE3F4FB00316A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E4985E1CE3F4FB00316A4A /* Main.storyboard */; };
+		F8E498621CE3F4FB00316A4A /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4985F1CE3F4FB00316A4A /* CalculatorBrain.swift */; };
+		F8E498641CE3F52A00316A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E498631CE3F52A00316A4A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8E498451CE3F48A00316A4A /* Maxculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maxculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E498481CE3F48A00316A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8E4984A1CE3F48A00316A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8E4984D1CE3F48A00316A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8E4984F1CE3F48A00316A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E498521CE3F48A00316A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E498541CE3F48A00316A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E4985B1CE3F4D900316A4A /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		F8E4985D1CE3F4FB00316A4A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8E4985E1CE3F4FB00316A4A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8E4985F1CE3F4FB00316A4A /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		F8E498631CE3F52A00316A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		F8E498471CE3F48A00316A4A /* Maxculator */ = {
 			isa = PBXGroup;
 			children = (
+				F8E4985D1CE3F4FB00316A4A /* ViewController.swift */,
+				F8E4985E1CE3F4FB00316A4A /* Main.storyboard */,
+				F8E4985F1CE3F4FB00316A4A /* CalculatorBrain.swift */,
+				F8E4985A1CE3F49500316A4A /* Supporting files */,
+			);
+			path = Maxculator;
+			sourceTree = "<group>";
+		};
+		F8E4985A1CE3F49500316A4A /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4985B1CE3F4D900316A4A /* PaddingLabel.swift */,
 				F8E498481CE3F48A00316A4A /* AppDelegate.swift */,
-				F8E4984A1CE3F48A00316A4A /* ViewController.swift */,
-				F8E4984C1CE3F48A00316A4A /* Main.storyboard */,
-				F8E4984F1CE3F48A00316A4A /* Assets.xcassets */,
+				F8E498631CE3F52A00316A4A /* Assets.xcassets */,
 				F8E498511CE3F48A00316A4A /* LaunchScreen.storyboard */,
 				F8E498541CE3F48A00316A4A /* Info.plist */,
 			);
-			path = Maxculator;
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,12 +105,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Robot Dream";
 				TargetAttributes = {
 					F8E498441CE3F48A00316A4A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = R3JV2Y8V3K;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -123,9 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E498611CE3F4FB00316A4A /* Main.storyboard in Resources */,
+				F8E498641CE3F52A00316A4A /* Assets.xcassets in Resources */,
 				F8E498531CE3F48A00316A4A /* LaunchScreen.storyboard in Resources */,
-				F8E498501CE3F48A00316A4A /* Assets.xcassets in Resources */,
-				F8E4984E1CE3F48A00316A4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E4984B1CE3F48A00316A4A /* ViewController.swift in Sources */,
+				F8E498601CE3F4FB00316A4A /* ViewController.swift in Sources */,
+				F8E4985C1CE3F4D900316A4A /* PaddingLabel.swift in Sources */,
+				F8E498621CE3F4FB00316A4A /* CalculatorBrain.swift in Sources */,
 				F8E498491CE3F48A00316A4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +161,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8E4984C1CE3F48A00316A4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8E4984D1CE3F48A00316A4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F8E498511CE3F48A00316A4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -177,8 +186,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -223,8 +234,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -243,6 +256,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -252,10 +266,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Maxculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotdream.Maxculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -263,10 +281,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Maxculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotdream.Maxculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -289,6 +311,7 @@
 				F8E498591CE3F48A00316A4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
