@@ -1,11 +1,4 @@
-//
-//  ViewController.swift
-//  Maxculator
-//
 //  Created by Max Guzman on 4/22/16.
-//  Copyright © 2016 Robot Dream. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

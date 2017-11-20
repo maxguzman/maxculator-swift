@@ -1,11 +1,4 @@
-//
-//  PaddingLabel.swift
-//  Maxculator
-//
 //  Created by Max Guzman on 5/7/16.
-//  Copyright © 2016 Robot Dream. All rights reserved.
-//
-
 import UIKit
 
 class PaddingLabel: UILabel {
